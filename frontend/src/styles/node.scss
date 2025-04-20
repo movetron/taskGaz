@@ -1,0 +1,39 @@
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .status-2 { background: gray; }
+  .status-3 { background: green; }
+  .status-4 { background: yellow; }
+  .status-5 { background: orange; }
+  .status-6 { background: red; }
+  
+  .red { color: red; }
+  .yellow { color: orange; }
+  .green { color: green; }
+  
+  .block-body{
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    width: 200px;
+    margin: 0px 0px 20px 0px;
+    width: 500px;
+  }
+  .block-node{
+    display: grid;
+    gap: 20px;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  }
+  .node {
+    
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  
